@@ -132,3 +132,39 @@ INSERT INTO EMPLOYEE VALUES
 (908, 'asstjulia', 'assistant'),
 (909, 'internabe', 'intern'),
 (910, 'asstmatt', 'assistant');
+
+INSERT INTO SERVICE VALUES
+(501, 'Grooming', 2, 'Pet maintenance care (washing, haircuts, nail treatments'),
+(502, 'Dental', 1, 'Pet teeth checkup and cleaning'),
+(503, 'Surgical', 4, 'Pet specialized surgical procedures'),
+(504, 'Emergency', 2, 'Pet urgent care for emergency situations'),
+(505, 'Annual Checkup', 2, 'Pet overall health and wellness evaluation'),
+(506, 'Lab', 1, 'Pet technician service for lab work (blood tests, x-rays)'),
+(507, 'Vaccination', 1, 'Pet vaccinations / boosters'),
+(508, 'Online', 1, 'Pet virtual consultations'),
+(509, 'Nutrition', 1, 'Pet evaluation and recommendation of diet'),
+(510, 'Training', 3, 'Pet training sessions');
+
+INSERT INTO PET VALUES
+(8801, 4409, 'Sally', 'Snake', 7, '2018-05-03'),
+(8802, 4401, 'Lucy', 'Dog', 10, '2015-08-10'),
+(8803, 4404, 'Tweety', 'Parrot', 20, '2006-09-06'),
+(8804, 4406, 'Peter', 'Rabbit', 4, '2019-03-19'),
+(8805, 4401, 'Milo', 'Dog', 8, '2017-01-30'),
+(8806, 4407, 'Nemo', 'Fish', 5, '2018-04-14'),
+(8807, 4405, 'Sam', 'Dog', 6, '2016-10-16'),
+(8808, 4408, 'Mike', 'Cat', 13, '2010-11-08'),
+(8809, 4410, 'Fluffy', 'Hamster', 1, '2021-7-20'),
+(8810, 4402, 'Keri', 'Cat', 3, '2020-06-05');
+
+INSERT INTO APPOINTMENT VALUES
+(3000, '2008-10-16', '08:00', 901, 8803, 4404, 505, 1043),
+(3015, '2011-12-18', '10:00', 907, 8808, 4408, 501, 1031),
+(3020, '2013-09-01', '15:00', 904, 8808, 4408, 509, 1031),
+(3035, '2017-11-06', '18:00', 910, 8807, 4405, 510, 1025),
+(3040, '2018-02-28', '08:00', 905, 8805, 4401, 502, 1030),
+(3055, '2019-06-03', '18:00', 908, 8801, 4409, 506, 1026),
+(3060, '2020-03-09', '08:00', 905, 8805, 4401, 505, 1030),
+(3075, '2021-04-10', '16:00', 909, 8804, 4406, 507, 1011),
+(3080, '2021-08-15', '11:00', 901, 8810, 4402, 505, 1028),
+(3095, '2022-07-08', '09:00', 904, 8809, 4410, 509, 1031);
